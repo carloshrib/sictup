@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SICTUP/static/css/main.271829ba.chunk.css",
+    "main.js": "/SICTUP/static/js/main.0d5a13f2.chunk.js",
+    "main.js.map": "/SICTUP/static/js/main.0d5a13f2.chunk.js.map",
+    "runtime-main.js": "/SICTUP/static/js/runtime-main.db4c6481.js",
+    "runtime-main.js.map": "/SICTUP/static/js/runtime-main.db4c6481.js.map",
+    "static/js/2.055b38ef.chunk.js": "/SICTUP/static/js/2.055b38ef.chunk.js",
+    "static/js/2.055b38ef.chunk.js.map": "/SICTUP/static/js/2.055b38ef.chunk.js.map",
+    "static/js/3.d225b22b.chunk.js": "/SICTUP/static/js/3.d225b22b.chunk.js",
+    "static/js/3.d225b22b.chunk.js.map": "/SICTUP/static/js/3.d225b22b.chunk.js.map",
+    "index.html": "/SICTUP/index.html",
+    "static/css/main.271829ba.chunk.css.map": "/SICTUP/static/css/main.271829ba.chunk.css.map",
+    "static/js/2.055b38ef.chunk.js.LICENSE.txt": "/SICTUP/static/js/2.055b38ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db4c6481.js",
+    "static/js/2.055b38ef.chunk.js",
+    "static/css/main.271829ba.chunk.css",
+    "static/js/main.0d5a13f2.chunk.js"
+  ]
+}
