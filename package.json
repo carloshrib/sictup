@@ -1,4 +1,5 @@
 {
+  "homepage": "http://carloshrib.github.io/sictup",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -12,7 +13,6 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
-  "homepage": "https://carloshrib.github.io/SICTUP",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
