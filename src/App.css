@@ -1,0 +1,59 @@
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+}
+
+.content {
+  width: 100%;
+  height: calc(100vh - 75px);
+  display: flex;
+  justify-content: center;
+
+}
+
+.header {
+  width: 100%;
+  height: 75px;
+  background-color: #1c1cb1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dataTable {
+  table-layout: fixed;
+  width: 300px;
+  margin: 20px;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50vw;
+  color: #1c1cb1;
+}
+
+
+.dataTable td, .dataTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.dataTable td div, .dataTable th div {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.dataTable tr:hover {background-color: #ddd;}
+
+.dataTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1c1cb1;
+  color: white;
+}
