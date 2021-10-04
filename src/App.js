@@ -17,17 +17,20 @@ function App() {
     const temperatures = Object.values(data.Temperatura).reverse();
     const humidities = Object.values(data.Umidade).reverse();
     const datetimes = Object.values(data.Horario).reverse();
+    const groundHumidities = Object.values(data.UmidadeSolo).reverse();
+
     const parsedData = temperatures.map((item, index) => {
       const temperaturesAndHumidites = {
         temperature: item,
         humidity: humidities[index],
-        datetime: datetimes[index] || '---'
+        datetime: datetimes[index] || '---',
+        groundHumidity: groundHumidities[index] || '---',
+
       }
 
       return temperaturesAndHumidites;
     })
     
-    console.log(data);
     setData(parsedData);
     setLoading(false)
   }, [])
@@ -57,6 +60,11 @@ useEffect(() => {
         selector: row => row.humidity,
         style: columnStyle,
     },
+    {
+      name: 'Umidade Solo',
+      selector: row => row.groundHumidity,
+      style: columnStyle,
+  },
     {
       name: 'Horário',
       selector: row => row.datetime,
